@@ -1,0 +1,12 @@
+[package]
+name = "cycle_define"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+proc_macro = true
+
+[dependencies]
+proc-macro2 = { version = "1.0.56", features = ["span-locations"] }
+syn = { version = "2.0.14" }
+quote = "1.0.26"
